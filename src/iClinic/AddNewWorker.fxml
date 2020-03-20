@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="146.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iClinic.AddNewWorker">
+   <children>
+      <TextField fx:id="nameLabel" layoutX="121.0" layoutY="40.0" />
+      <TextField fx:id="nameLabel" layoutX="121.0" layoutY="70.0" />
+      <Label layoutX="78.0" layoutY="44.0" text="Name" />
+      <Label layoutX="69.0" layoutY="74.0" text="Password" />
+      <Button fx:id="saveBtn" layoutX="270.0" layoutY="106.0" mnemonicParsing="false" onAction="#saveEvent" text="Save" />
+      <Button fx:id="cancelBtn" layoutX="26.0" layoutY="106.0" mnemonicParsing="false" onAction="#cancelEvent" text="Cancel" />
+      <Label layoutX="132.0" layoutY="14.0" text="Add a worker" />
+   </children>
+</AnchorPane>
